@@ -1,7 +1,6 @@
 public class CreatingVariables {
   public static void main( String[] args ){
-    //study drill: Add four more variables to the program: another integer, another double, and two Strings.
-    //Name them whatever you want. Give them values. Print them out.
+    //study drill
     int x, y, year, age;
     double seconds, e, checking, weight;
     String firstName, lastName, title, course, schoolName;
@@ -28,7 +27,7 @@ public class CreatingVariables {
     System.out.println( "A favorite irrational # is Euler's number: " + e );
     System.out.println( "Hopefully you have more than $" + checking + "!" );
     System.out.println( "My name's " + title + " " + firstName + lastName );
-    System.out.println( "In " + year + " I turned " + age + " and my weight was " + weight);
     System.out.print( "I study " + course + " at " + schoolName);
+    System.out.println( "In " + year + " I turned " + age + " and my weight was " + weight);
   }
 }
