@@ -4,6 +4,7 @@ public class BMICategories {
   public static void main( String[] args ) {
     Scanner keyboard = new Scanner(System.in);
     double bmi;
+    //The else means that the if statement will only check to see if it is true or false assuming the preceding if statement (and only the immediately preceding one) was false.
 
     System.out.print( "Enter your BMI: " );
     bmi = keyboard.nextDouble();
